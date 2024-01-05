@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Travel & Tour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">Miko Transport</a>
+           
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Course.html">Services</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h2>(Licensed Pinoy/French Speaking European Driver Based in Paris <br>with Business Permit 75278578200018)</h2>
+</section>
+
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>About Us</h1>
+            <p>Are you looking for an authorized professional driver that helps you enjoy your vacation to France? Well, you are in the right direction.
+                I’m one of the most seasoned authorized Filipino driver guide backed by 11 years experience, serving people from different parts of the world.
+                <br>
+                <br>
+                Paris is my activity base, but we do not stop there. We can drive you to anywhere you wish to see in France, and in Europe as well.
+                We value your safety very much. Your well spent vacation is our primary concern.
+                Try us.</p>
+                <a href="Course.html" class="hero-btn black-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="Miko.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+<section class="footer">
+    <h4>Miko Transport</h4>
+    <p>Find The Most Beautiful Places In France And Entire Europe With Us!</p>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+        <div class="wrapper">
+            <a href="https://www.facebook.com/miko.transport?mibextid=ZbWKwL" class="icon facebook">
+              <div class="tooltip">Facebook</div>
+              <span><i class="fab fa-facebook-f"></i></span>
+            </a>
+            <p>www.facebook.com</p>
+          </div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
